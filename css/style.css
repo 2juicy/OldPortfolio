@@ -1,0 +1,145 @@
+* {
+    box-sizing: border-box;
+
+    cursor: default;
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+main {
+    flex: 1 0 auto;
+}
+hr{
+    display: block;
+    height: 1px;
+    border:0;
+    border-top: 1px solid #ccc;
+    margin: 5px 0px 5px 0px;
+    padding: 0;
+}
+
+img,
+li,
+li span,
+li i,
+.fa-anchor,
+#navHeaderLogo {
+    cursor: pointer;
+}
+
+#navDivFluid{
+    background: linear-gradient(45deg, black, gray);    
+}
+#landingJumbotron {
+    background: linear-gradient(45deg, gray, black);
+}
+.pageTitle {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 10px;
+    text-shadow: -1px -1px 1px #aaa,
+             0px 4px 1px rgba(0,0,0,0.5),
+             4px 4px 5px rgba(0,0,0,0.7),
+             0px 0px 7px rgba(0,0,0,0.4);
+}
+.aboutMe{
+    font-size: 20px;
+}
+
+#navHeaderIcon {
+    line-height: 100%;
+    height: 100%;
+}
+
+#landingPageNav {
+    background: transparent;
+    border: none;
+    box-shadow: none;
+    width: 80%;
+    margin: 0 auto;
+}
+
+#navHeaderLogo {
+    margin: 10% 0;
+}
+
+
+
+.taglineHead {
+    color: white;
+    text-align: center;
+    text-shadow: -1px -1px 1px #aaa,
+            1px 1px 1px red,
+             0px 4px 1px rgba(0,0,0,0.5),
+             4px 4px 5px rgba(0,0,0,0.7),
+             0px 0px 7px rgba(0,0,0,0.4);
+}
+
+
+
+
+
+
+.card-title{
+    font-size: 30px;
+    letter-spacing: 1px;
+}
+
+.cardContainer{
+    padding-top: 20px;
+    margin: 0 auto;
+    width: 80%;
+}
+
+#cardContainerBackground{
+    height: 500px;
+    background: #f5f5f5;
+    height: 100%;
+}
+
+.card-image {
+    border-radius: 15px 15px 0 0;
+}
+
+.card{
+    height: 300px;
+    width: 300px;
+    margin: 8px auto;
+    border-radius: 15px;
+}
+
+
+
+
+
+
+
+
+#footer {
+    background: black;
+    color: white;
+}
+
+
+
+.footerLink {
+    color: #f5f5f5;
+    line-height: 20px;
+}
+
+.footerLink:hover {
+    color: yellow;
+}
+
+@media only screen and (max-width: 380px){
+
+    .card{
+    height: 200px;
+    width: 180px;
+
+}
+}
