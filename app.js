@@ -19,7 +19,7 @@ $(".card").on("click", function(event) {
         $(this).addClass('animated pulse');
         let delay = setTimeout(function() {
             $(".card").removeClass('animated pulse');                  
-        }, 2500);        
+        }, 2000);        
     });
 $("#aboutImage").on("click", function(event) {
     let state = $(this).attr('class');
