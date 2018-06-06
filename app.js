@@ -15,9 +15,9 @@ $("#aboutImage").on("click", function(event) {
     let state = $(this).attr('class');
     if (state == 'responsive-img animated lightSpeedIn'){
         $('#aboutImage').removeClass('animated lightSpeedIn');
-        $('#aboutImage').addClass('animated rubberBand');
+        $('#aboutImage').addClass('animated flash');
     } else {
-        $('#aboutImage').removeClass('animated rubberBand');
+        $('#aboutImage').removeClass('animated flash');
         $('#aboutImage').addClass('animated lightSpeedIn');
     }
 });
