@@ -6,16 +6,16 @@ $('#portfoliopage').hide();
 $("#aboutClick").on("click", function(event) {
     $('#aboutmepage').slideDown();
     $('#portfoliopage').slideUp();
-    $('.card').hide();
+    $(".card").attr('class', 'card animated rotateIn');
 });
 // fun with animate.css
-$('.card').hide();
+
 $("#portfolioClick").on("click", function(event) {
     $('#aboutmepage').slideUp();
     $('#portfoliopage').slideDown();
-    $('.card').fadeIn(1500);
 });
 $(".card").on("click", function(event) {
+        $(".card").attr('class', 'card');
         $(this).addClass('animated pulse');
         let delay = setTimeout(function() {
             $(".card").removeClass('animated pulse');                  
@@ -34,7 +34,7 @@ $("#aboutImage").on("click", function(event) {
         let delay = setTimeout(function() {
             $('#aboutImage').removeClass('animated lightSpeedOut');
             $('#aboutImage').addClass('animated lightSpeedIn');
-        }, 2000);
+        }, 1000);
         
     }
 });
