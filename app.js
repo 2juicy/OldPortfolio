@@ -6,11 +6,21 @@ $('#portfoliopage').hide();
 $("#aboutClick").on("click", function(event) {
     $('#aboutmepage').slideDown();
     $('#portfoliopage').slideUp();
+    $('.card').hide();
 });
+// fun with animate.css
+$('.card').hide();
 $("#portfolioClick").on("click", function(event) {
     $('#aboutmepage').slideUp();
     $('#portfoliopage').slideDown();
+    $('.card').fadeIn(1500);
 });
+$(".card").on("click", function(event) {
+        $(this).addClass('animated pulse');
+        let delay = setTimeout(function() {
+            $(".card").removeClass('animated pulse');                  
+        }, 2500);        
+    });
 $("#aboutImage").on("click", function(event) {
     let state = $(this).attr('class');
     if (state == 'responsive-img animated lightSpeedIn'){
