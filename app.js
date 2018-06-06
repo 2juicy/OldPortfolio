@@ -7,7 +7,7 @@ $("#aboutClick").on("click", function(event) {
     $('#aboutmepage').slideDown();
     $('#portfoliopage').slideUp();
     $(".card").attr('class', 'card animated rotateIn');
-    $('#aboutImage').addClass('animated lightSpeedIn');
+    $('#aboutImage').attr('class', 'responsive-img animated bounceInLeft');
 });
 // fun with animate.css
 $("#portfolioClick").on("click", function(event) {
