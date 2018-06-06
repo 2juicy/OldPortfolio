@@ -1,8 +1,30 @@
 // All ends must have beginnings...
 $(document).ready(function(){
-//Lets give the 1 page setup a try with some flair...
 // $('#aboutmepage').hide();
-// $('#portfoliopage').hide();
+$('#portfoliopage').hide();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -16,58 +38,4 @@ var instance = new TypeIt('.taglineHead', {
     breakLines: false,
     loop: true
 });
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 }); // The End...
