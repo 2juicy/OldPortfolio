@@ -3,15 +3,19 @@ $(document).ready(function(){
 // $('#aboutmepage').hide();
 $('#portfoliopage').hide();
 
+$("#aboutClick").on("click", function(event) {
+    $('#aboutmepage').slideDown();
+    $('#portfoliopage').slideUp();
+});
 
 
 
 
 
-
-
-
-
+$("#portfolioClick").on("click", function(event) {
+    $('#aboutmepage').slideUp();
+    $('#portfoliopage').slideDown();
+});
 
 
 
