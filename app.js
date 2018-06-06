@@ -25,10 +25,17 @@ $("#aboutImage").on("click", function(event) {
     let state = $(this).attr('class');
     if (state == 'responsive-img animated lightSpeedIn'){
         $('#aboutImage').removeClass('animated lightSpeedIn');
-        $('#aboutImage').addClass('animated flash');
-    } else {
-        $('#aboutImage').removeClass('animated flash');
-        $('#aboutImage').addClass('animated lightSpeedIn');
+        $('#aboutImage').addClass('animated flash infinite');
+        let delay = setTimeout(function() {
+            $('#aboutImage').removeClass('animated flash infinite');
+        }, 2000);
+    } else if (state == 'responsive-img'){
+        $('#aboutImage').addClass('animated lightSpeedOut');
+        let delay = setTimeout(function() {
+            $('#aboutImage').removeClass('animated lightSpeedOut');
+            $('#aboutImage').addClass('animated lightSpeedIn');
+        }, 2000);
+        
     }
 });
 // TypeIt
