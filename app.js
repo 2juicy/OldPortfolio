@@ -7,6 +7,7 @@ $("#aboutClick").on("click", function(event) {
     $('#aboutmepage').slideDown();
     $('#portfoliopage').slideUp();
     $(".card").attr('class', 'card animated rotateIn');
+    $('#aboutImage').addClass('animated lightSpeedIn');
 });
 // fun with animate.css
 $("#portfolioClick").on("click", function(event) {
@@ -21,19 +22,21 @@ $(".card").on("click", function(event) {
         }, 2000);        
     });
 $("#aboutImage").on("click", function(event) {
-    let state = $(this).attr('class');
-    if (state == 'responsive-img animated lightSpeedIn'){
-        $('#aboutImage').removeClass('animated lightSpeedIn');
-        $('#aboutImage').addClass('animated flash infinite');
-        let delay = setTimeout(function() {
-            $('#aboutImage').removeClass('animated flash infinite');
-        }, 2000);
-    } else if (state == 'responsive-img'){
+    let state = $(this).attr('src');
+    if (state == 'images/guitar.jpg'){
         $('#aboutImage').addClass('animated lightSpeedOut');
         let delay = setTimeout(function() {
+            $('#aboutImage').attr('src', 'images/guitar2.jpeg')
             $('#aboutImage').removeClass('animated lightSpeedOut');
             $('#aboutImage').addClass('animated lightSpeedIn');
         }, 1000);        
+    } else {
+        $('#aboutImage').addClass('animated lightSpeedOut');
+        let delay = setTimeout(function() {
+            $('#aboutImage').attr('src', 'images/guitar.jpg')
+            $('#aboutImage').removeClass('animated lightSpeedOut');
+            $('#aboutImage').addClass('animated lightSpeedIn');
+        }, 1000);
     }
 });
 // TypeIt
