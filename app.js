@@ -11,6 +11,16 @@ $("#portfolioClick").on("click", function(event) {
     $('#aboutmepage').slideUp();
     $('#portfoliopage').slideDown();
 });
+$("#aboutImage").on("click", function(event) {
+    let state = $(this).attr('class');
+    if (state == 'responsive-img animated lightSpeedIn'){
+        $('#aboutImage').removeClass('animated lightSpeedIn');
+        $('#aboutImage').addClass('animated rubberBand');
+    } else {
+        $('#aboutImage').removeClass('animated rubberBand');
+        $('#aboutImage').addClass('animated lightSpeedIn');
+    }
+});
 // TypeIt
 var instance = new TypeIt('.taglineHead', {
     strings: ['Freelance Web Developer...', 'Living in Node.js...'],
