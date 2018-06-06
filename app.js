@@ -9,7 +9,6 @@ $("#aboutClick").on("click", function(event) {
     $(".card").attr('class', 'card animated rotateIn');
 });
 // fun with animate.css
-
 $("#portfolioClick").on("click", function(event) {
     $('#aboutmepage').slideUp();
     $('#portfoliopage').slideDown();
@@ -34,8 +33,7 @@ $("#aboutImage").on("click", function(event) {
         let delay = setTimeout(function() {
             $('#aboutImage').removeClass('animated lightSpeedOut');
             $('#aboutImage').addClass('animated lightSpeedIn');
-        }, 1000);
-        
+        }, 1000);        
     }
 });
 // TypeIt
