@@ -80,10 +80,13 @@ a,
     border-radius: 15px 15px 0 0;
 }
 .card{
-    height: 325px;
-    width: 325px;
+    height: 450px;
+    width: 450px;
     margin: 8px auto;
     border-radius: 15px;
+}
+.cardInfo{
+    font-size: 20px;
 }
 #footer {
     background: black;
@@ -102,10 +105,22 @@ a,
         width: 180px;
     }
     .card-title{
-    font-size: 18px!important;
-    line-height: normal!important;
+        font-size: 18px!important;
+        line-height: normal!important;
     }
     #navHeaderLogo {
         font-size: 38px;
+    }
+    .cardInfo{
+        font-size: 14px;
+    }
+}
+@media only screen and (max-width: 1400px){
+    .card{
+        height: 325px;
+        width: 325px;
+    }
+    .cardInfo{
+        font-size: 16px;
     }
 }

@@ -28,14 +28,14 @@ $("#aboutImage").on("click", function(event) {
         let delay = setTimeout(function() {
             $('#aboutImage').attr('src', 'images/guitar2.jpeg')
             $('#aboutImage').removeClass('animated lightSpeedOut');
-            $('#aboutImage').addClass('animated lightSpeedIn');
+            $('#aboutImage').addClass('animated bounceInLeft');
         }, 1000);        
     } else {
         $('#aboutImage').addClass('animated lightSpeedOut');
         let delay = setTimeout(function() {
             $('#aboutImage').attr('src', 'images/guitar.jpg')
             $('#aboutImage').removeClass('animated lightSpeedOut');
-            $('#aboutImage').addClass('animated lightSpeedIn');
+            $('#aboutImage').addClass('animated bounceInLeft');
         }, 1000);
     }
 });
