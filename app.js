@@ -10,7 +10,7 @@ $("#aboutClick").on("click", function(event) {
     $('#aboutImage').attr('class', 'responsive-img animated bounceInLeft');
     let delay = setTimeout(function() {
         $(".card").attr('class', 'card animated rollIn');                
-    }, 500);  
+    }, 400);  
 });
 // fun with animate.css
 $("#portfolioClick").on("click", function(event) {
@@ -18,7 +18,7 @@ $("#portfolioClick").on("click", function(event) {
     $('#portfoliopage').slideDown();
 });
 $(".card").on("click", function(event) {
-        $(".card").attr('class', 'card');
+        $(".card").removeClass('animated rollIn');  
         $(this).addClass('animated pulse');
         let delay = setTimeout(function() {
             $(".card").removeClass('animated pulse');                  
