@@ -109,7 +109,10 @@ a,
         line-height: normal!important;
     }
     #navHeaderLogo {
-        font-size: 38px;
+        font-size: 36px;
+    }
+    #landingPageNav {
+        width: 100%;
     }
     .cardInfo{
         font-size: 14px;
