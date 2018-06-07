@@ -6,8 +6,11 @@ $('#portfoliopage').hide();
 $("#aboutClick").on("click", function(event) {
     $('#aboutmepage').slideDown();
     $('#portfoliopage').slideUp();
-    $(".card").attr('class', 'card animated rotateIn');
+    $(".card").attr('class', 'card animated rollOut');
     $('#aboutImage').attr('class', 'responsive-img animated bounceInLeft');
+    let delay = setTimeout(function() {
+        $(".card").attr('class', 'card animated rollIn');                
+    }, 500);  
 });
 // fun with animate.css
 $("#portfolioClick").on("click", function(event) {
