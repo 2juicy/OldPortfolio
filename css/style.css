@@ -73,6 +73,10 @@ a,
              4px 4px 5px rgba(0,0,0,0.7),
              0px 0px 7px rgba(0,0,0,0.4);
 }
+.fa-github{
+    color: white;
+    margin-right: 4px;
+}
 .cardContainer{  
     margin: 0 auto;
     width: 80%;
