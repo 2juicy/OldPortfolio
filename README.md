@@ -1,4 +1,4 @@
-# Updated Portfolio
+# Personal Portfolio
 
 https://2juicy.github.io/PersonalPortfolio/
 
