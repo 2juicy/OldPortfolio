@@ -9,6 +9,7 @@ https://daneden.github.io/animate.css/
 animate.css is a bunch of cool, fun, and cross-browser animations for you to use in your projects. Great for emphasis, home pages, sliders, and general just-add-water-awesomeness.
 
 Americone-Dream
+Shoutout to my awesome group, they taught me so much!
 https://github.com/Americone-Dream
 @nmclear
 @nrvpatel3
