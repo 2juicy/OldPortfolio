@@ -34,6 +34,7 @@ a,
 #landingJumbotron {
     background: linear-gradient(45deg, gray, black);
 }
+
 .pageTitle {
     font-size: 24px;
     text-align: center;
@@ -76,6 +77,12 @@ a,
 .fa-github{
     color: white;
     margin-right: 4px;
+}
+#portfoliopage{
+    background: rgba(150, 150, 150, 0.63);
+}
+#projects{
+    margin-bottom:0;
 }
 .cardContainer{  
     margin: 0 auto;
