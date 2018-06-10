@@ -12,7 +12,7 @@
 
 ### Americone-Dream
 Shoutout to my awesome group, they taught me so much!<br>
-[Loiter](https://github.com/Americone-Dream)
-[@nmclear](https://github.com/nmclear)
-[@yeungpirate](https://github.com/yeungpirate)
-[@nrvpatel3](https://github.com/nrvpatel03)
+[Loiter](https://github.com/Americone-Dream/Loiter)<br>
+[@nmclear](https://github.com/nmclear)<br>
+[@yeungpirate](https://github.com/yeungpirate)<br>
+[@nrvpatel3](https://github.com/nrvpatel03)<br>
