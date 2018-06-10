@@ -115,10 +115,6 @@ a i,
 .footerLink:hover {
     color: yellow;
 }
-.fa-gamepad{
-    color: white;
-    margin-top: 5px;
-}
 @media only screen and (max-width: 380px){
     .card{
         height: 200px;

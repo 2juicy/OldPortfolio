@@ -44,8 +44,8 @@ $("#aboutImage").on("click", function(event) {
 }); 
 // TypeIt
 const instance = new TypeIt('.taglineHead', {
-    strings: ['Freelance Web Dev...', 'Living in Node.js...'],
-    nextStringDelay: 3000,
+    strings: ['Freelance Web Dev...', 'Living in <i class="fab fa-node"></i>...'],
+    nextStringDelay: 2800,
     cursor: false,
     breakLines: false,
     loop: true
