@@ -41,7 +41,7 @@ $("#aboutImage").on("click", function(event) {
             $('#aboutImage').addClass('animated bounceInLeft');
         }, 1000);
     }
-});
+}); 
 // TypeIt
 const instance = new TypeIt('.taglineHead', {
     strings: ['Freelance Web Dev...', 'Living in Node.js...'],
