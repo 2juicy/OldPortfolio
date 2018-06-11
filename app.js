@@ -26,17 +26,17 @@ $(".card").on("click", function(event) {
     });
 $("#aboutImage").on("click", function(event) {
     let state = $(this).attr('src');
-    if (state == 'images/guitar.jpg'){
+    if (state == 'images/freelance.png'){
         $('#aboutImage').addClass('animated lightSpeedOut');
         let delay = setTimeout(function() {
-            $('#aboutImage').attr('src', 'images/guitar2.jpeg')
+            $('#aboutImage').attr('src', 'images/guitar.jpg')
             $('#aboutImage').removeClass('animated lightSpeedOut');
             $('#aboutImage').addClass('animated bounceInLeft');
         }, 1000);        
     } else {
         $('#aboutImage').addClass('animated lightSpeedOut');
         let delay = setTimeout(function() {
-            $('#aboutImage').attr('src', 'images/guitar.jpg')
+            $('#aboutImage').attr('src', 'images/freelance.png')
             $('#aboutImage').removeClass('animated lightSpeedOut');
             $('#aboutImage').addClass('animated bounceInLeft');
         }, 1000);
