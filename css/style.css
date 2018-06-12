@@ -23,7 +23,6 @@ i{
     margin-right: 5px;
 }
 img,
-li,
 li span,
 li i,
 a,
@@ -39,7 +38,7 @@ a i,
     background: linear-gradient(45deg, gray, black);
 }
 
-.pageTitle {
+.pageTitle, .mySkills {
     font-size: 30px;
     font-style: oblique;
     text-align: center;
@@ -49,11 +48,15 @@ a i,
              4px 4px 5px rgba(0,0,0,0.7),
              0px 0px 7px rgba(0,0,0,0.4);
 }
+.skillList{
+    font-size: 26px;
+    font-style: italic;
+}
 #aboutImage{
     margin-top: 1em;
 }
 .aboutMe{
-    font-size: 28px;
+    font-size: 26px;
     font-style: italic;
 }
 #navHeaderIcon {
