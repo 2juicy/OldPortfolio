@@ -1,6 +1,6 @@
 * {
     box-sizing: border-box;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Rubik', sans-serif;
     cursor: default;
 }
 body {
@@ -23,7 +23,7 @@ i{
     margin-right: 5px;
 }
 img,
-li span,
+
 li i,
 a,
 a i,
@@ -50,14 +50,12 @@ a i,
 }
 .skillList{
     font-size: 26px;
-    font-style: italic;
 }
 #aboutImage{
     margin-top: 1em;
 }
 .aboutMe{
     font-size: 26px;
-    font-style: italic;
 }
 #navHeaderIcon {
     line-height: 100%;
@@ -73,6 +71,12 @@ a i,
 #navHeaderLogo {
     margin: 10% 0;
     font-size: 42px;
+}
+.title{
+    font-size: 28px;
+    font-style: bold;
+    text-shadow: -1px -1px 1px #aaa,
+            1px 1px 1px gray;
 }
 .taglineHead {
     color: white;
