@@ -1,6 +1,6 @@
 # Personal Portfolio
 
-[Hosted here on GitHub!](https://2juicy.github.io/PersonalPortfolio/)
+[Hosted here on GitHub!](https://2juicy.github.io/OldPortfolio/)
 
 ## Credits
 
